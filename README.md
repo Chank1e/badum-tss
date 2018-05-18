@@ -7,13 +7,26 @@
 
 BTSS is a simple JavaScript-based language which can be used to achieve... I don't really know for what)
 
-```
-npm install badum-tss --save
+```s
+$ npm install badum-tss --save
 
-or
+# or
 
-yarn add badum-tss
+$ yarn add badum-tss
 ```
+
+---
+
+### Constructor
+
+```javascript
+
+const BTSS = require('badum-tss');
+const tks = BTSS(code[, modules, need_to_run]); //returns array of tokens
+
+```
+
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Chank1e/badum-tss/master/img/banners/syntax.jpg"/>
 </p>
