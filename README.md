@@ -31,14 +31,14 @@ __Default__ is 'Tss'
 ---
 
 ### Separator
-Between every command you need to type separator\
+Between every command you need to type separator
 __Default__ is '.'
 
 ---
 
 ### Define variables 
-__Default__ define variable word is 'Suppose that'\  
-__Default__ equals word is 'stores'\
+__Default__ define variable word is 'Suppose that'  
+__Default__ equals word is 'stores'
 
 #### Example:
 ```
@@ -52,7 +52,7 @@ Tss.
 ---
 
 ### Import functions
-You can import any functions as a second argument and use them in BTSS with import keyword\
+You can import any functions as a second argument and use them in BTSS with import keyword
 #### Sequence:
 - Write functions
 - Create array of functions
@@ -60,7 +60,7 @@ You can import any functions as a second argument and use them in BTSS with impo
 - Import function in BTSS-lang
 
 #### Example:
-```
+```javascript
 const BTSS = require('badum-tss');
 function print(...args){
   console.log(...args);
@@ -68,11 +68,9 @@ function print(...args){
 const code = `
 Badum.
 Lets take print.
-
 Suppose that A stores 1.
 
 I want the print to bring (A).
-
 Tss.
 `;
 
@@ -91,7 +89,7 @@ If you've already import any function, you want to call it with arguments.
 - Write arguments in the round brackets
 
 #### Example:
-```
+```javascript
 const code = `
 Badum.
 Lets take print.
