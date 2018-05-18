@@ -22,7 +22,8 @@ $ yarn add badum-tss
 ```javascript
 
 const BTSS = require('badum-tss');
-const tks = BTSS(code[, modules, need_to_run]); //returns array of tokens
+const tks = BTSS.go(code[, modules, need_to_run]); //Returns array of tokens
+const jsValid = BTSS.compile(tree,'./dist/hello.js'); //Returns JS-Valid code and compile BTSS code into js and save to './dist/hello.js'
 
 ```
 

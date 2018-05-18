@@ -1,6 +1,6 @@
 {
   "name": "badum-tss",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple JS-based language",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/Chank1e/badum-tss#readme",
   "dependencies": {
-    "badum-tss": "^0.0.1"
+    "badum-tss": "^0.0.2"
   }
 }
