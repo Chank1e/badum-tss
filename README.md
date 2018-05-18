@@ -19,40 +19,40 @@ yarn add badum-tss
 </p>
 
 ### Begin
-Firstly you need to write begin word, which you can find in **./src/constants/keywords.js**\
+Firstly you need to write begin word\
 __Default__ is 'Badum'
 
 ---
 
 ### End
-In the end you need to write end word, which you can find in **./src/constants/keywords.js**
+In the end you need to write end word\
 __Default__ is 'Tss'
 
 ---
 
 ### Separator
-Between every command you need to type separator, which you can find in **./src/constants/operators.js**
+Between every command you need to type separator\
 __Default__ is '.'
 
 ---
 
-### Define variables
-Also you need to find out define variable word and equals word in **./src/constants/keywords.js** and **./src/constants/operators.js**  
-__Default__ define variable word is 'Suppose that'  
-__Default__ equals word is 'stores'  
+### Define variables 
+__Default__ define variable word is 'Suppose that'\  
+__Default__ equals word is 'stores'\
 
 #### Example:
 ```
 Badum.
 Suppose that A stores 2.
 Suppose that B stores 'hello world'.
+Tss.
 ```
 #### Now A===2, B==='hello world'
 
 ---
 
 ### Import functions
-You can import any functions as a second argument and use them in BTSS with import keyword, which you can find in **./src/constants/keywords.js**
+You can import any functions as a second argument and use them in BTSS with import keyword\
 #### Sequence:
 - Write functions
 - Create array of functions
