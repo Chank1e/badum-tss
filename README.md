@@ -131,5 +131,12 @@ function square(a){
 BTSS(code,[print,square]);
 ```
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Chank1e/badum-tss/master/img/banners/thanks.jpg"/>
+</p>
 
+### I don't hope for any usage of this project, but I would be grateful for the star=3
 
+#### Thank's just for reading. Logo and banners are from [canva.com](https://canva.com)
+
+#### copyright [github.com/chank1e](https://github.com/chank1e), 2018

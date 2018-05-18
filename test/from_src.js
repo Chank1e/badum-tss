@@ -6,7 +6,7 @@ String.prototype.trim = function () {
 fs.readFile('./btss/hello_world.btss',(err,data)=>{
     if(err)
         throw err;
-    code = data.toString('ascii');
+    code = data.toString();
     mainProcess();
 });
 
