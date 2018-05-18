@@ -19,7 +19,7 @@ yarn add badum-tss
 </p>
 
 ### Begin
-Firstly you need to write begin word, which you can find in **./src/constants/keywords.js**
+Firstly you need to write begin word, which you can find in **./src/constants/keywords.js**\
 __Default__ is 'Badum'
 
 ---
